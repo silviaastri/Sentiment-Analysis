@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import string
 import nltk
@@ -85,10 +79,3 @@ tfidf_nya = (tfidf.toarray())
 
 X_nya = tfidf_nya
 tf=DataFrame(tfidf.A, columns= vectorizer.get_feature_names())
-
-
-# In[ ]:
-
-
-
-
