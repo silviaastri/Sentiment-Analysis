@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -153,4 +147,3 @@ for train, test in kfold.split(X_new, Y_new):
         print ("Area Under Curve ROC First Data (train) = {:.2f}".format(auctr_))
         print ("Area Under Curve ROC SMOTE Dara (train) = {:.2f}".format(aucsmtr_))
         print ("===========================================================")
-
