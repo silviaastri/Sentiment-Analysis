@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import string
 import nltk
@@ -157,10 +151,3 @@ plt.imshow(wordcloud)
 plt.axis('off')
 plt.show()
 fig.savefig("D:/wordneg.png", dpi=900)
-
-
-# In[ ]:
-
-
-
-
